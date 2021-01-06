@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="javaMapperPackage" value="com.smart.order.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/smart-seata/seata-order/src/main/java" />
+        <option name="javaModelPackage" value="com.smart.order.entity" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/smart-seata/seata-order/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="seata-order" />
+        <option name="lombokDataAnnotation" value="true" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="seata-order">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.smart.order.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/smart-seata/seata-order/src/main/java" />
+                  <option name="javaModelPacakge" value="com.smart.order.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/smart-seata/seata-order/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/smart-seata/seata-order/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="seata-store">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.smart.store.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/smart-seata/seata-store/src/main/java" />
+                  <option name="javaModelPacakge" value="com.smart.store.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/smart-seata/seata-store/src/main/java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/smart-seata/seata-store/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/smart-seata/seata-store/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/smart-seata/seata-store/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="removeTablePreName" value="tb_" />
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="business_order:tb_order">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="Order" />
+                  <option name="moduleName" value="seata-order" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="business_store:tb_storage">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="Storage" />
+                  <option name="moduleName" value="seata-store" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="userMybatisPlus" value="true" />
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/smart-seata/seata-order/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
